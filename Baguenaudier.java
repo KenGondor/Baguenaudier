@@ -1,5 +1,14 @@
 import java.util.Scanner;
-
+/**
+ * Jeff E. Chapter 1: Recursion
+ *
+ * Exercise 2: Baguenaudier
+ * Rules:
+ * 1. Leftmost bit can be flipped
+ * 2. To flip the i-th bit/ring, the (i-1)-th bit has to be on/1 and all
+ *    preceding bits has to be off/0.
+ *
+ * */
 public class Baguenaudier {
     //11111 -> 01111 -> 01011 -> 11011 -> 10011 -> 00011 -> 00010
     // true -> on; false -> off;
